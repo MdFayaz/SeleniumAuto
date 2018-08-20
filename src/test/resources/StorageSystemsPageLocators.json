@@ -1,0 +1,411 @@
+{
+  "name": "StorageSystemsPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "StorageSystemsTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Storage Systems')]"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsHeaderActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Storage Systems')]//..//parent::div"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeaderIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//*[@class='content-header']//*[@class='icon']"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//*[@class='content-header']//*[@class='name']"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeaderSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//*[contains(@class, 'input-group-search')]"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeaderSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//i[@class='svg-icon magnifier small']"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeaderSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//i[@class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsViewHeaderDownloadButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='StorageSystemsView list-table d-view']//*[@class='export ripple-container']//span[@class='export-icon']"
+        }
+      ]
+    },
+    {
+      "name":"StorageSystemsTableFooter",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"//*[@class='StorageSystemsView list-table d-view']//*[contains(@class, 'footer')]"
+    	 }
+       ]
+    },
+    {
+      "name":"AddStorageSystemButton",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"//*[@class='InfraScreen list-table d-view']//*[contains(text(), 'Add Storage System')]"
+    	 }
+       ]
+    },
+    {
+      "name": "AddStorageSystemPopover",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Storage System')]//ancestor::div[contains(@class, 'AddPopover')]"
+        }
+      ]
+    },
+    {
+       "name": "StorageSystemPopoverTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Storage System')]"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemPopoverCloseIcon",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//i"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemInputName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='name']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemTypeDropdown",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'c-select-dropdown')]"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemTypeDropdownContent",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'selection-content')]"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemIPAddress",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='ipAddress']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemUser",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='user']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemPassword",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='password']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemSNMP",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='snmp']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemOtherDescription",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='description']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemAccessKey",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='accessKey']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemSecretKey",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='secretKey']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemProxyHost",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='proxyHost']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemProxyPort",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='proxyPort']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemEndPoint",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='endpoint']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemAddButtonOnPopover",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//button[contains(text(), 'Add Storage System')]"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemProgress",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'table table-bordered')]//*[contains(@class, 'creating-progress')]"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemTable",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'table table-bordered')]"
+       	 }
+       ]
+    },
+    {
+       "name": "SearchStorageSystemTable",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemAddVolumeButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='btn btn-default add-volume']"
+       	 }
+       ]
+    },
+    {
+       "name": "StorageSystemAddVolumesPopover",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesPopoverTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSelectionsTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Selections')]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionTabSectionHeader",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Storage Systems')]"
+       	 }
+       ]
+    },
+    {
+       "name": "SearchVolumesInput",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[@name='searchName']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionsSearchPlaceholder",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search Storage Volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionCheckboxUnChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'uncheck')]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionCheckboxChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'checked')][2]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionNextStep",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(text(), 'Next Step')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Assimilate Data')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesManageCapacityTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Manage Capacity')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesReviewAndAddTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Review & Add')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesButtonInReviewAndAddTab",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='btn btn-primary save-volumes']"
+       	 }
+       ]
+    }
+  ]
+}

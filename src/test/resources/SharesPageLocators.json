@@ -1,0 +1,330 @@
+{
+  "name": "SharesPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "SharesTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Shares')]"
+        }
+      ]
+    },
+    {
+      "name": "SharesHeaderActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Shares')]//..//parent::div"
+        }
+      ]
+    },
+    {
+      "name": "SharesTable",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderCreateShareIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[@class='content-header']//*[text()='Create Share']//..//*[@class='icon']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderApplyObjectiveOrTierIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[@class='content-header']//*[text()='Apply Objective or Tier']//..//*[@class='icon']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderCreateShareLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[@class='content-header']//*[text()='Create Share']//..//*[@class='name']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderApplyObjectiveOrTierLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[@class='content-header']//*[text()='Apply Objective or Tier']//..//*[@class='name']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[contains(@class, 'input-group-search')]"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//i[@class='svg-icon magnifier small']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//i[@class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+    {
+      "name": "SharesViewHeaderDownloadButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SharesView list-table d-view']//*[@class='export ripple-container']//span[@class='export-icon']"
+        }
+      ]
+    },
+    {
+      "name":"SharesTableFooter",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"//*[@class='SharesView list-table d-view']//*[contains(@class, 'footer')]"
+    	 }
+       ]
+    },
+    {
+       "name": "CreateShareButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='InfraScreen list-table d-view']//*[contains(text(), 'Create Share')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateSharePopover",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateSharePopoverForm",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='form-horizontal']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateSharePopoverBottom",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']//*[@class='popover-bottom']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareNameLabel",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[@class='popover fade top in add-entity-popover']//label[contains(text(),'Name')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']//input[@name='name']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareExportLabel",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[@class='popover fade top in add-entity-popover']//label[contains(text(),'Export Path')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareExportPath",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']//input[@name='exportPath']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareExportSubnetSection",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']//div[@class='subnet-header']//ancestor::div[@class='section']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareExportSubnetLabel",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[@class='popover fade top in add-entity-popover']//div[@class='subnet-header']//*[contains(@class, 'export-subnet')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateSharePermissionsLabel",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[@class='popover fade top in add-entity-popover']//div[@class='subnet-header']//*[contains(@class, 'permissions')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareRootSquashLabel",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[@class='popover fade top in add-entity-popover']//div[@class='subnet-header']//*[contains(@class, 'root-squash-label')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareAddSubnetLink",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[contains(@class,'subnet-panel')]//div[@class='subnet-con-add']//*[contains(@class, 'add-subnet')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareAddSubnetDetailsForm",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator":"//*[contains(@class,'subnet-panel')]//div[@class='subnet-content']//*[contains(@class, 'subnet-row')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareQuotaSection",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'quota-section')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareQuotaSectionShareSize",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'quota-section')]//*[contains(text(), 'Share Size')]//parent::div"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareQuotaSectionSizeAlert",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'quota-section')]//*[contains(text(), 'Size Alert')]//parent::div"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareQuotaSectionSizeAlertOffSwitch",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'quota-section')]//*[contains(@class,'c-switch') and not(contains(@class, 'on'))]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareQuotaSectionSizeAlertOnSwitch",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class,'quota-section')]//*[contains(@class,'c-switch') and contains(@class, 'on')]"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareLabelApplyObjectiveOrTier",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='search-input choose-objective choose-item']//ancestor::div[contains(@class, 'objective-section')]//label"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareApplyObjectiveOrTier",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='search-input choose-objective choose-item']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareApplyObjectiveOrTierOptions",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='select-container objective-container']//*[@class='item-content']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateShareCreateButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='btn btn-primary create-share']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateSharePopoverCloseIcon",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']//*[@class='close close-popover']"
+       	 }
+       ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "LoginPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "username",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "username"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      },
+      "expectedData" : "Primary Data | DataSphere"
+    },
+     {
+      "name": "password",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "password"
+        }
+      ]
+    },
+     {
+      "name": "submit",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Log in')]"
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "tagName=img"
+        }
+      ]
+    },
+     {
+      "name": "popover",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.add-entity-popover"
+        }
+      ]
+    },
+     {
+      "name": "checkboxName",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=input[type='checkbox']"
+        }
+      ]
+    },
+     {
+      "name": "popoverTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.add-entity-popover .title"
+        }
+      ]
+    },
+     {
+      "name": "popoverCloseIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.add-entity-popover .close-popover"
+        }
+      ]
+    },
+     {
+      "name": "popoverContent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.add-entity-popover .popover-content"
+        }
+      ]
+     },
+     {
+      "name": "popoverCloseButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.add-entity-popover button"
+        }
+      ]
+    }
+  ]
+}

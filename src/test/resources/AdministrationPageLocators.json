@@ -1,0 +1,896 @@
+{
+  "name": "AdministrationPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "AdminPageView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "Administration"
+        }
+      ]
+    },
+     {
+      "name": "AdminPageTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[.='Administration']"
+        }
+      ],
+      "expectedData" : "Administration"
+    },
+     {
+      "name": "AdminTabSystem",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='System']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDatasphereView list-table d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemBodyClusterInfoHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDatasphereView list-table d-view'] .cluster-info__header"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemClusterNameInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Cluster Name')]//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemClusterHealthInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Cluster Health')]//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemClusterIDInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Cluster ID')]//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemBodyPrimaryNodeInfoHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDatasphereView list-table d-view'] .node-info__header"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemPrimaryNodeInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='Primary Node']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemNodeHealthInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='Node Health']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemIPAddressInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='IP Address']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemSerialNumberInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='Serial Number']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemVersionInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='Version']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSystemLocationInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[.='Location']//following-sibling::div"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabServices",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Services']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabServicesBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDsxNodesView list-table d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabServicesBodyHeaderSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDsxNodesView list-table d-view'] .input-group-search"
+        }
+      ]
+    },
+    {
+      "name": "AdminTabServicesHeaderSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDsxNodesView list-table d-view'] i[class='svg-icon magnifier small']"
+        }
+      ]
+    },
+    {
+      "name": "AdminTabServicesHeaderSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingDsxNodesView list-table d-view'] i[class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+    {
+      "name":"AdminTabServicesTableFooter",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"css=#Administration__body div[class='SettingDsxNodesView list-table d-view'] .content-footer"
+    	 }
+       ]
+    },
+     {
+      "name": "AdminTabNetwork",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Network']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabNetworkBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingNetworkView list-table d-view']"
+        }
+      ]
+    },
+    {
+      "name":"AdminTabNetworkTableFooter",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"css=#Administration__body div[class='SettingNetworkView list-table d-view'] .content-footer"
+    	 }
+       ]
+    },
+     {
+      "name": "AdminTabSNMP",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='SNMP']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingSnmpView d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPHeaderPart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='snmp-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPHeaderTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-part']//*[@class='title']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPHeaderCheckbox",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-part']//*[@class='check-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPDownloadPart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='download-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPDownloadButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='download-part']//button//a"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerPart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='snmp-manager-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[contains(text(), 'SNMP Managers')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerSubnet",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[contains(text(), 'Subnet')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerVersion",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[contains(text(), 'Version')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerCommunity",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[contains(text(), 'Community')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerAddLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[contains(text(), 'Delete')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPManagerDelete",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-manager-part']//*[@class='add-manager']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapPart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='snmp-trap-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[contains(text(), 'SNMP Trap Destinations')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapIPAddress",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[contains(text(), 'IP Address')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapVersion",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[contains(text(), 'Version')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapCommunity",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[contains(text(), 'Community')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapDelete",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[contains(text(), 'Delete')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPTrapAdd",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='snmp-trap-part']//*[@class='add-destination']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsPart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='system-details-part']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='system-details-part']//*[@class='title']//../*[contains(text(), 'System Details')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsContactName",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='system-details-part']//*[contains(text(), 'Contact Name')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsContactEMail",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='system-details-part']//*[contains(text(), 'Contact E-Mail')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsDescription",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='system-details-part']//*[contains(text(), 'Description')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPSysDetailsLocationAddress",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='system-details-part']//*[contains(text(), 'Location Address')]/.."
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSNMPBottomSavePart",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingSnmpView d-view']//*[@class='bottom-save']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdate",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Software Update']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body .SoftwareUpdate"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwarePackagesSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body .SoftwareUpdate .SoftwareUpdatePackagesTable"
+        }
+      ]
+    },
+     {
+       "name" : "AdminTabSoftwareUpdateSoftwarePackagesHeader",
+       "locale": [
+         {
+           "name" : "en_US",
+           "locator": "//*[@class='SoftwareUpdatePackagesTable']//*[@class='table__superhead__title']"
+         }
+       ], 
+       "expectedData" : "Software Packages"
+    },
+     {
+      "name": "AdminTabSoftwareUpdateUploadSwPackage",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Upload Software Package')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateCancelUpload",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Cancel Upload')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwareTableHeaders",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body .SoftwareUpdate .SoftwareUpdatePackagesTable .table__head"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwareTableFooters",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body .SoftwareUpdate .SoftwareUpdatePackagesTable .table__footer"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwareNodesSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body .SoftwareUpdate .SoftwareUpdatePackagesTable .table__head"
+        }
+      ]
+    },
+     {
+       "name" : "AdminTabSoftwareUpdateSoftwareNodesHeader",
+       "locale": [
+         {
+           "name" : "en_US",
+           "locator": "//*[@class='SoftwareUpdateNodesTable']//*[@class='table__superhead__title']"
+         }
+       ], 
+       "expectedData" : "DataSphere and DSX Node Software"
+    },
+     {
+      "name": "AdminTabSoftwareUpdateUpdateAllButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Update All')]"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwareNodesHeaders",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SoftwareUpdateNodesTable']//*[@class='table__head']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSoftwareUpdateSoftwareNodesFooters",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='SoftwareUpdateNodesTable']//*[@class='table__footer']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupport",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Support']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupportBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingSupportView d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupportSendSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingSupportView d-view'] div[data-part='send']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupportSendTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='send'] .title"
+        }
+      ],
+      "expectedData" : "Gather DataSphere Logs and Upload to Primary Data"
+    },
+     {
+      "name": "AdminTabSupportSendSubTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='send'] .sub-title"
+        }
+      ],
+      "expectedData" : "Send a support bundle to Primary Data"
+    },
+     {
+      "name": "AdminTabSupportSendButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='send'] button"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupportDownloadSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingSupportView d-view'] div[data-part='download']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabSupportDownloadTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='download'] .title"
+        }
+      ],
+      "expectedData" : "Gather DataSphere Logs into Local Support Bundle"
+    },
+     {
+      "name": "AdminTabSupportDownloadSubTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='download'] .sub-title"
+        }
+      ],
+      "expectedData" : "Download the support bundle to your desktop"
+    },
+     {
+      "name": "AdminTabSupportDownloadButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[data-part='download'] button"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectory",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Active Directory']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='SettingActiveDirectoryView d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='SettingActiveDirectoryView d-view']//*[@class='title'][1]"
+        }
+      ],
+      "expectedData": "Input the domain and credentials, then click join."
+    },
+     {
+      "name": "AdminTabActiveDirectoryDomainLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][1]//*[@class='title']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryDomainInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][1]//*[@placeholder='FQDN or IP']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryOrganizationalUnitLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input ou']//*[@class='title']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryOrganizationalUnitInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input ou'][1]//*[@placeholder='OU=realm, OU=realm, ...']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryOrganizationalUnitHelpText",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input ou'][1]//p[@class='help-text']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryOrganizationalUnitIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input ou']//div[@class='icon-realm']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryLoginLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][2]//*[@class='title']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryLoginInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][2]//input"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryPasswordLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][3]//*[@class='title']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryPasswordInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//*[@class='title-input'][3]//input"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabActiveDirectoryJoinButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='join-content']//button"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabUsers",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='Tabs']//div[.='Users']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabUsersBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view']"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabUsersBodyHeaderIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] .content-header .icon"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabUsersBodyHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] .content-header .name"
+        }
+      ]
+    },
+     {
+      "name": "AdminTabUsersBodyHeaderSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] .input-group-search"
+        }
+      ]
+    },
+    {
+      "name": "AdminTabUsersHeaderSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] i[class='svg-icon magnifier small']"
+        }
+      ]
+    },
+    {
+      "name": "AdminTabUsersHeaderSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] i[class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+    {
+      "name": "AdminTabUsersHeaderDownloadButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=#Administration__body div[class='UsersView list-table d-view'] div[class='export ripple-container'] .export-icon"
+        }
+      ]
+    },
+    {
+      "name":"AdminTabUsersTableFooter",
+      "locale":[
+    	 {
+    	   "name":"en_US",
+    	   "locator":"css=#Administration__body div[class='UsersView list-table d-view'] .content-footer"
+    	 }
+       ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "name": "DashboardPage",
+  "defaultLocale": "en_US",
+  "elements": [
+     {
+      "name": "dashboardTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='DashboardScreen d-view']//*[contains(text(), 'Dashboard')]"
+        }
+      ]
+    },
+    {
+      "name": "dashboardPerfSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn performance')]"
+        }
+      ]
+    },
+    {
+    	"name":"performanceSectionTitle",
+    	"locale":[
+    	  {
+    		"name":"en_US",
+    		"locator":"//*[contains(@class, 'dash-ctn performance')]//div[@class='panel-title']"
+    	  }
+    	]
+    },
+     {
+      "name": "perfSectionIOPS",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn performance')]//*[@class='item-box iops']"
+        }
+      ]
+    },{
+    	"name":"IOPSTitle",
+    	"locale":[ {
+    		"name":"en_US",
+    		"locator":"//*[contains(@class, 'dash-ctn performance')]//span//..//..//following-sibling::div//div//div[@class='item-box iops']//*[@class='chart-header']"
+    	}]
+    },
+     {
+      "name": "perfSectionBandwidth",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn performance')]//span//..//..//following-sibling::div//div//div[@class='item-box bandwidth']"
+        }
+      ]
+    },
+    {
+    	"name" :"BandwidthTitle",
+    	"locale": [
+    		{
+    			"name":"en_US",
+    			"locator":"//*[contains(@class, 'dash-ctn performance')]//span//..//..//following-sibling::div//div//div[@class='item-box bandwidth']//*[@class='chart-header']"
+    		}
+    	]
+    },
+     {
+      "name": "perfSectionMetadataOPS",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn performance')]//span//..//..//following-sibling::div//div//div[@class='item-box metadata']"
+        }
+      ]
+    },
+    {
+    	"name":"MetadataTitle",
+    	"locale":[{
+    		"name":"en_US",
+    		"locator":"//*[contains(@class, 'dash-ctn performance')]//span//..//..//following-sibling::div//div//div[@class='item-box metadata']//*[@class='chart-header']"	
+    	}]
+    },
+     {
+      "name": "perfOpenFilePerf",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn performance')]//div[@id='performance-map']"
+        }
+      ]
+    },
+     {
+      "name": "perfOpenFilePerfHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Open File Performance')]"
+        }
+      ]
+    },
+     {
+      "name": "dashboardCapacitySectionLoaded",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//div//div[@class='panel-title']"
+        }
+      ]
+    },
+     {
+      "name": "dashboardCapacityStorage",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box managed-info']"
+        }
+      ]
+    },
+     {
+      "name": "dashboardCapacityStorageHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box managed-info']//div[@class='title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityTotal",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box total-info']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityTotalHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box total-info']//div[@class='title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityGrowth",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box growth-info']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityGrowthHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//span//..//..//following-sibling::div//div[@class='DashCapaView capa-body d-view']//div[@class='item-box growth-info']//div[@class='title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityCapacitySection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn capacity')]//*[@id='capacity-map']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardCapacityCapacitySectionHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-type='capacity']//div[@class='title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentSectionLoaded",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']"
+        }
+      ]
+    },{
+      "name": "dashboardAlignmentSectionHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'panel-title')]//*[contains(text(), 'Alignment')]"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentVolsExceedingThresholdSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box volumes-info']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentSectionVolsExceedingThresholdHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box volumes-info']//*[@class='title iops']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentSectionMobilityBandwidth",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box mobility-info']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAligmentSectionMobilityBandwidthHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box mobility-info']//*[@class='title iops']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentSectionFileAlignment",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box files-info']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentSectionFileAlignmentHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='DashAlignView conf-body d-view']//div[@class='item-box files-info']//*[@class='title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsLoaded",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='panel-title']//..//following-sibling::div//div[@class='DashMobiView d-view']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'dash-ctn alignment')]//span//..//..//following-sibling::div//div[@class='panel-title']"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsPerformance",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='DashMobiView d-view']//*[contains(text(), 'Performance')]"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsLocation",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='DashMobiView d-view']//*[contains(text(), 'Location')]"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsContention",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='DashMobiView d-view']//*[contains(text(), 'Contention')]"
+        }
+      ]
+    },
+    {
+      "name": "dashboardAlignmentCurrentMobilityReasonsProtection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='DashMobiView d-view']//*[contains(text(), 'Protection')]"
+        }
+      ]
+    }
+  ]
+}

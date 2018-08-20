@@ -1,0 +1,32 @@
+{
+  "name": "ObjectivesAndTiersPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "ObjectivesTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Objectives')]"
+        }]
+    },
+     {
+      "name": "TiersTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Tiers')]"
+        }
+      ]
+    },
+     {
+      "name": "DataProfilerTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Data Profiler')]"
+        }
+      ]
+    }
+  ]
+}

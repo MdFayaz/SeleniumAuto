@@ -1,0 +1,594 @@
+{
+  "name": "ObjectivesPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "ObjectivesTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Objectives')]"
+        }]
+    },
+     {
+      "name": "ObjectivesView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectivesView list-table d-view']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveSectionSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//*[contains(@class, 'input-group-search')]"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveSectionSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//i[@class='svg-icon magnifier small']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveSectionSearchInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//input[@name='searchName']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveSectionSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//i[@class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveDownload",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//a"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveTable",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//table"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesActiveTableFooter",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='active-objectives-body']//*[contains(@class, 'footer')]"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveSectionSearch",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//*[contains(@class, 'input-group-search')]"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveSectionSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//i[@class='svg-icon magnifier small']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveSectionSearchInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//input[@name='searchName']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveSectionSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//i[@class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveDownload",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//a"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveTable",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//table"
+        }
+      ]
+    },
+     {
+      "name": "ObjectivesInActiveTableFooter",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='inactive-objectives-body']//*[contains(@class, 'footer')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Create Objective')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewObjectiveTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreate d-view']//*[@data-ui-test='ObjectiveCreate-header']//*[@class='title']"
+        }
+      ],
+      "expectedData" : "Create New Objective"
+    },
+     {
+      "name": "CreateNewObjectiveInstruction",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreate d-view']//*[@data-ui-test='ObjectiveCreateStep1-panel-body']//*[@class='instruction']"
+        }
+      ],
+      "expectedData" : "Name this objective and describe what it should achieve"
+    },
+     {
+      "name": "CreateNewObjectiveNameTabLabelSelect",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep1-panel-body']//*[@class='create-obj-row']//label"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewObjectiveRadioButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(@class, 'create-obj-select-new')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewObjectiveCopyRadioButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(@class, 'create-obj-select-clone')]"
+        }
+      ]
+    },
+    {
+      "name": "CreateNewObjectiveChooseExistingDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='create-obj-row create-obj-clone-dropdown']//*[@class='search-input']"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewObjectiveChooseExistingDropdownOptions",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='create-obj-row create-obj-clone-dropdown']//*[@class='selection-content']"
+        }
+      ]
+    },
+    {
+      "name": "CreateNewObjectiveLabelChooseExisting",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep1-panel-body']//*[@class='create-obj-row create-obj-clone-dropdown']//label"
+        }
+      ]
+    },
+     {
+      "name": "ObjectiveLabelName",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='copy-and-edit-objective-name-input']//label"
+        }
+      ]
+    },
+     {
+      "name": "ObjectiveName",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='create-obj-name']"
+        }
+      ]
+    },
+     {
+      "name": "ObjectiveLabelDescription",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='copy-and-edit-objective-comment-input']//label"
+        }
+      ]
+    },
+     {
+      "name": "ObjectiveDescription",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='create-obj-comment']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveNameTabNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary next-step']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesBasicView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-panel-body']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-header']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabBasicButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-header']//*[contains(@class, 'basic')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabIfStatementSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-rule-conditions']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabIf",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='if']/div"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabIfComparator",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='if-comparator-dropdown']/div"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabIfInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='if-condition-input']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAddStatementButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='if-add-condition-button']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAddedConditions",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-if-conditions']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAddedActivityRangeSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-rule-performance']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAddedActivityRangeButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='add-range-item-button']//button"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabActivityLowerBound",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'min-col')][not(contains(@class, 'disabled'))]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabActivityUpperBound",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'max-col')][not(contains(@class, 'disabled'))]"
+        }
+      ]
+    },
+    {
+      "name": "CreateObjectiveDefineRulesTabActivityTiers",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[@class='c-select-dropdown input-group choose-tier']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabDefineAdditionalRulesButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='save-and-define-rules']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAdvancedButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-header']//*[contains(@class, 'advanced')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAdvancedViewInstruction",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreateStep2Advanced d-view']//div[@class='instruction']"
+        }
+      ],
+      "expectedData" : "If you customize your rule below, you will not be able to revert to the basic editor without discarding your changes"
+    },
+     {
+      "name": "CreateObjectiveDefineRulesAdvancedView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreateStep2Advanced d-view']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesAdvancedTextArea",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreateStep2Advanced d-view']//*[@data-ui-test='ObjectiveCreateStep2Advanced-inputs']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesAdvancedTextAreaError",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreateStep2Advanced d-view']//div[@class='ac__error']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabAdvancedToBasicRevertButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='ObjectiveCreateStep2Advanced d-view']//button[@class='btn revert-to-basic']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesTabNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep2Basic-next-step-btn']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-panel-body']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabNameSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-panel-body']//*[@class='left-section']//*[@data-ui-test='ObjectiveCreateStep3-name']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabDescriptionSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-panel-body']//*[@class='left-section']//*[@data-ui-test='ObjectiveCreateStep3-description']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabRulesSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-panel-body']//*[contains(@class,'right-section')]//*[@data-ui-test='ObjectiveCreateStep3-added-rules-content']"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabSaveObjectiveButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-save-objective-btn']//*[contains(text(), 'Save Objective')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveReviewTabCancelObjectiveButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='ObjectiveCreateStep3-save-objective-btn']//*[contains(text(), 'Cancel')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesFirstLowerBound",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'choose-min')]//input[0]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesFirstTierDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'choose-tier')][0]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesLastUpperBound",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'choose-max')]//input[1]"
+        }
+      ]
+    },
+     {
+      "name": "CreateObjectiveDefineRulesLastTierDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[contains(@class, 'choose-tier')][1]"
+        }
+      ]
+    }
+    ,
+     {
+      "name": "CreateObjectiveDefineRulesListOfRanges",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='added-range-items']//*[@class='range-item']//div[@class='inputs']"
+        }
+      ]
+    }
+  ]
+}

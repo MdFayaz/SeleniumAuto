@@ -1,0 +1,258 @@
+{
+  "name": "InfraAndDataPage",
+  "defaultLocale": "en_US",
+  "elements": [
+  	{
+      "name": "SharesTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Shares')]"
+        }
+      ]
+    },
+    {
+      "name": "StorageSystemsTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Storage Systems')]//parent::a"
+        }
+      ]
+    },
+    {
+      "name": "VolumeGroupsTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volume Groups')]//parent::a"
+        }
+      ]
+    },
+    {
+      "name": "VolumesTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volumes')]//parent::a"
+        }
+      ]
+    },
+    {
+       "name": "AddVolumesPopover",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover fade top in add-entity-popover']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesPopoverTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSelectionsTabTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Selections')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSelectionTabSectionHeader",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Storage Systems')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSearchStorageSystemsInput",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//div[@class='popover-content']//input"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSearchStorageVolumesInput",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search Storage Volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionCheckboxUnChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'uncheck')]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionCheckboxChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'checked')][2]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionNextStep",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(text(), 'Next Step')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Assimilate Data')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddToExistingShare",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'VolumeAddModal-add-to-share')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddToExistingShareSelectShare",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'VolumeAddModal-add-to-share')]//*[@class='c-select-dropdown input-group shares-dropdown']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddToExistingShareSelectShareOptions",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='select-container share-items-container']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddToExistingShareTypePath",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'VolumeAddModal-add-to-share')]//input"
+       	 }
+       ]
+    },
+    {
+       "name": "AddToExistingShareSaveButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'VolumeAddModal-add-to-share')]//button[contains(text(), 'Save') and not(contains(@class, 'disabled'))]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataAddToShareLink",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(@class, 'add-edit-share')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesManageCapacityTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Manage Capacity')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesReviewAndAddTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Review & Add')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesButtonInReviewAndAddTab",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='btn btn-primary save-volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataNo",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='assimilate-no']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataYes",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='assimilate-yes']"
+       	 }
+       ]
+    },
+    {
+       "name": "ConfirmAssimilatePopover",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='SuperModal d-view']//*[@class[normalize-space(.)='modal__glass']]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesManageCapacityThreshold",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@type='number']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumeProgress",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='progress-col creating-progress']//*[@class='score-bar-used']"
+       	 }
+       ]
+    }
+    ]
+ }

@@ -1,0 +1,195 @@
+{
+  "name": "VolumesPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "VolumesTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volumes')]"
+        }
+      ]
+    },
+    {
+      "name": "VolumesHeaderActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volumes')]//..//parent::div"
+        }
+      ]
+    },
+    {
+       "name": "VolumesTable",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'table table-bordered')]"
+       	 }
+       ]
+    },
+    {
+    	"name":"AddVolumesButton",
+    	"locale":[
+    	  {
+    		"name":"en_US",
+    		"locator":"//*[@class='InfraScreen list-table d-view']//*[contains(text(), 'Add Volume')]"
+    	  }
+    	]
+    },
+    {
+      "name": "AddVolumePopover",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//ancestor::div[contains(@class, 'add-entity-popover')]"
+        }
+      ]
+    },
+    {
+       "name": "VolumesPopoverTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesSelectionsTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Selections')]"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionTabSectionHeader",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Storage Systems')]"
+       	 }
+       ]
+    },
+    {
+       "name": "SearchVolumesInput",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[@name='searchName']"
+       	 }
+       ]
+    },
+    {
+       "name": "BrowseVolumeButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[@class='right-arrow-icon']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionsSearchPlaceholder",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search Storage Volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumeProgress",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='progress-col creating-progress']//*[@class='score-bar-used']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionCheckbox",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@data-entity-name, 'vol_karthik_c')]//td[@class='check-col check-td']"
+       	 }
+       ]
+    },
+    {
+       "name": "VolumesSelectionNextStep",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(text(), 'Next Step')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Assimilate Data')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesManageCapacityTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Manage Capacity')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesReviewAndAddTabName",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='popover-title']//*[contains(text(), 'Add Volumes')]//..//following-sibling::div//*[contains(text(), 'Review & Add')]"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesButtonInReviewAndAddTab",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='btn btn-primary save-volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataNo",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='assimilate-no']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesAssimilateDataYes",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='assimilate-yes']"
+       	 }
+       ]
+    },
+    {
+       "name": "AddVolumesManageCapacityThreshold",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@type='number']"
+       	 }
+       ]
+    }
+  ]
+}

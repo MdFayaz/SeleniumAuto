@@ -1,0 +1,195 @@
+{
+  "name": "VolumeGroupsPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "VolumeGroupsTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volume Groups')]"
+        }
+      ]
+    },
+    {
+      "name": "VolumeGroupsHeaderActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='InfraScreen list-table d-view']//span[contains(text(), 'Volume Groups')]//..//parent::div[contains(@class, active)]"
+        }
+      ]
+    },
+    {
+       "name": "VolumeGroupsTable",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[contains(@class, 'table table-bordered')]"
+       	 }
+       ]
+    },
+    {
+    	"name":"CreateVolumeGroupsButton",
+    	"locale":[
+    	  {
+    		"name":"en_US",
+    		"locator":"//*[@class='InfraScreen list-table d-view']//*[contains(text(), 'Create Volume Group')]"
+    	  }
+    	]
+    },
+    {
+      "name": "CreateVolumeGroupsPopover",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='popover-title']//*[contains(text(), 'Create a Volume Group')]//ancestor::div[contains(@class, 'add-entity-popover')]"
+        }
+      ]
+    },
+    {
+       "name": "CreateVolumeGroupsPopoverTitle",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopover d-view']//*[@class='popover-title']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsNameTabHeader",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopover d-view']//*[@class='popover-title']//..//following-sibling::div[contains(@class, 'step name')]//div[@class='row-item']"
+       	 }
+       ]
+    },
+       "name": "CreateVolumeGroupsNameTabSection",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep1 d-view']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsNameVolumeGroupNameTextField",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@id='volume-group-name']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsNameVolumeGroupDescriptionTextArea",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//textarea[@name='comment']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsNameVolumeGroupNextStepButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep1 d-view']//ancestor::div[@class='popover-content']//following-sibling::div//button"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddStorageSystemsSearchField",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search All Storage Systems']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddStorageSystemsBrowseVolumes",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='right-arrow-icon']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsSearchedStorageSystemCheckbox",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsSelectedStorageSystems",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='right-part panel-body']//div[@class='selected-row']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddStorageSystemsNextStepButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep2 d-view']//ancestor::div[@class='popover-content']//following-sibling::div//button"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddVolumeGroupsSearchField",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search All Volume Groups']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddVolumeGroupsNextStepButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep3 d-view']//ancestor::div[@class='popover-content']//following-sibling::div//button"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddVolumesSearchField",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//input[@name='searchName'][@placeholder='Search All Volumes']"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsAddVolumesNextStepButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep4 d-view']//ancestor::div[@class='popover-content']//following-sibling::div//button"
+       	 }
+       ]
+    },
+    {
+       "name": "CreateVolumeGroupsReviewAndSaveTabSaveVolumeGroupButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='VolumeGroupAddPopoverStep5 d-view']//ancestor::div[@class='popover-content']//following-sibling::div//button"
+       	 }
+       ]
+    }
+    
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "name": "LoginPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "eventsDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.EventsDropdown"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsDropdownHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.EventsDropdown-header"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsViewPanel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.EventsView"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsPageTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.EventsView .panel-table-header"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsFilter",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.events-filters"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsFilterPanelBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.EventsView .panel-body"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "eventsTable",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.list-table"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Severity')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityClearAll",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='severity-con filter']//*[contains(text(), 'Clear All')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityFields",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.severity-con .filter-item"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityCritical",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.severity-con div[data-type='CRITICAL']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityWarning",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.severity-con div[data-type='WARNING']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    },
+     {
+      "name": "severityInformational",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.severity-con div[data-type='INFORMATIONAL']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 30
+      }
+    }
+  ]
+}

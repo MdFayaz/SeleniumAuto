@@ -1,0 +1,186 @@
+{
+  "name": "DataProfilerPage",
+  "defaultLocale": "en_US",
+  "elements": [
+     {
+      "name": "DataProfilerTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Data Profiler')]"
+        }
+      ]
+    },
+    {
+      "name": "RefreshButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[contains(text(), 'Refresh')]"
+        }
+       ]
+    },
+     {
+      "name": "SelectShareDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[contains(@class, 'share-selection__dropdown')]"
+        }
+      ]
+    },
+     {
+      "name": "DataDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[contains(@class, 'data-selection__dropdown')]"
+        }
+      ]
+    },
+     {
+      "name": "CostInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[contains(@class, 'cost__input')]"
+        }
+      ]
+    },
+     {
+      "name": "SetAsBaselineButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//button[@class='cost__btn--baseline']"
+        }
+      ]
+    },
+     {
+      "name": "BaselineDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[contains(@class, 'baseline-selection__dropdown')]"
+        }
+      ]
+    },
+     {
+      "name": "SavingsDollar",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(text(), 'Savings ($)')]"
+        }
+      ]
+    },
+    {
+      "name": "SavingsPercent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(text(), 'Savings (%)')]"
+        }
+      ]
+    },
+    {
+      "name": "SelectAShareToBeginIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//i"
+        }
+      ]
+    },
+    {
+      "name": "ClickSliderToAddTier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//input"
+        }
+      ]
+    },
+    {
+      "name": "ProfilerBody",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@class[.='modeler__body']]"
+        }
+       ]
+    },
+    {
+      "name": "FilesButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//button[contains(text(), 'Files')]"
+        }
+      ]
+    },
+    {
+      "name": "CapacityButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//button[contains(text(), 'Capacity')]"
+        }
+      ]
+    },
+    {
+      "name": "CostButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//button[contains(text(), 'Cost')]"
+        }
+      ]
+    },
+    {
+      "name": "HistogramChart1",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@data-hist-idx='0']"
+        }
+      ]
+    },
+    {
+      "name": "HistogramChart2",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@data-hist-idx='1']"
+        }
+      ]
+    },
+    {
+      "name": "HistogramChart3",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@data-hist-idx='2']"
+        }
+      ]
+    },
+    {
+      "name": "HistogramChart4",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@data-hist-idx='3']"
+        }
+      ]
+    },
+    {
+      "name": "HistogramChart5",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'DataProfiler d-view')]//*[@data-hist-idx='4']"
+        }
+      ]
+    }
+  ]
+}

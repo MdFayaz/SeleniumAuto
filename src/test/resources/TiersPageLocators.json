@@ -1,0 +1,853 @@
+{
+  "name": "TiersPage",
+  "defaultLocale": "en_US",
+  "elements": [
+     {
+      "name": "TiersTab",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='Thresholds']//*[@class='Tabs']//*[contains(text(), 'Tiers')]"
+        }
+      ]
+    },
+     {
+      "name": "TiersView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewSectionSearchMagnifier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//i[@class='svg-icon magnifier small']"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewSectionSearchInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//input[@name='searchName']"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewSectionSearchClear",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//i[@class='svg-icon clear-search-icon small']"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewDownload",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//div[@class='export ripple-container']"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewTable",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//table"
+        }
+      ]
+    },
+     {
+      "name": "TiersViewTableFooter",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@data-ui-test='TiersView-list-table']//*[contains(@class, 'footer')]"
+        }
+      ]
+    },
+    {
+      "name": "CreateTier",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Create Tier')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierGetStartedTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreate d-view']//*[@class='title']"
+        }
+       ], 
+       "expectedData" : "Create New Tier"
+    },
+    {
+      "name": "CreateTierGetStartedView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierGetStartedInstruction",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']//*[@class='instruction']"
+        }
+       ],
+      "expectedData" : "Name this tier and describe what it should achieve"
+    },
+    {
+      "name": "CreateTierGetStartedSelectSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']//*[@class='create-obj-row']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierGetStartedNameSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']//*[contains(@class,'create-obj-name')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierGetStartedDescriptionSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']//*[contains(@class,'create-obj-comment')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierGetStartedCostSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep1 create-step create-step-one d-view']//*[contains(@class,'create-obj-cost')]"
+        }
+       ]
+    },
+     {
+      "name": "CreateTiersGetStarted",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'TierCreate d-view')]//*[contains(text(), 'Get Started')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewTierRadioButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(@class, 'create-obj-select-new')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewTierCopyRadioButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[contains(@class, 'create-obj-select-clone')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewTierChooseExistingDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='create-obj-row create-obj-clone-dropdown']//*[@class='search-input']"
+        }
+      ]
+    },
+     {
+      "name": "CreateNewTierChooseExistingDropdownOptions",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='create-obj-row create-obj-clone-dropdown']//*[@class='selection-content']"
+        }
+      ]
+    },
+     {
+      "name": "TierName",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='create-tier-name']"
+        }
+      ]
+    },
+     {
+      "name": "TierDescription",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@id='create-tier-comment']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierGetStartedNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary next-placement']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierPlacementView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep2 create-step create-step-two d-view']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPlacementHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep2 create-step create-step-two d-view']//*[@class='step-header']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPlacementHeaderInstruction",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep2 create-step create-step-two d-view']//*[@class='step-header']//*[@class='header']"
+        }
+       ],
+       "expectedData" : "Choose where copies of data should be placed"
+    },
+     {
+      "name": "CreateTierPlacementDoNotMoveLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Do Not Move')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementDoNotMoveButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='c-switch for-tier']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementOptimizeForCapacityLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Optimize for Capacity')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementOptimizeForCapacityButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='capacity-optimize']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementConfineDataSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementConfineDataSectionTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[@class='title']"
+        }
+      ],
+       "expectedData" : "Confine Data To This Storage"
+    },
+     {
+      "name": "CreateTierPlacementConfineDataSectionSubTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[@class='panel-subcopy']"
+        }
+      ],
+       "expectedData" : "Restrict all copies to the selections below"
+    },
+     {
+      "name": "CreateTierPlacementConfineDataEmptySelection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[@class='selections-empty']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementConfineDataAddIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[@class='selections-empty']//*[@class='add-icon']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementConfineDataAddTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[@class='selections-empty']//*[@class='add-title']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementConfineDataSelectStorageLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'confine-data')]//*[contains(text(), 'Select Storage')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataSectionTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[@class='title']"
+        }
+      ],
+       "expectedData" : "Place Data On This Storage"
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataSectionSubTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[@class='panel-subcopy']"
+        }
+      ],
+       "expectedData" : "Place at least one copy on the selections below"
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataEmptySelection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[@class='selections-empty']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataAddIcon",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[@class='selections-empty']//*[@class='add-icon']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataAddTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[@class='selections-empty']//*[@class='add-title']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPlacementPlaceDataSelectStorage",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'place-data')]//*[contains(text(), 'Select Storage')]"
+        }
+      ]
+    },
+    {
+      "name": "PlacementPopover",
+      "locale": [
+      	{
+      		"name" : "en_US",
+      		"locator" : "//*[@class='popover fade top in search-storage-popover add-entity-popover']"
+      	}
+      ]
+    },
+    {
+      "name": "PlacementPlaceOnPopoverSearch",
+      "locale": [
+      	{
+      		"name" : "en_US",
+      		"locator" : "//*[contains(text(), 'Place On')]//..//following-sibling::div//input[@name='searchName']"
+      	}
+      ]
+    },
+    {
+       "name": "PlacementPlaceOnStroageSystemBrowseVolumes",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='right-arrow-icon node']"
+       	 }
+       ]
+    },
+    {
+       "name": "PlacementPlaceOnStroageSystemCheckboxUnChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'uncheck')]"
+       	 }
+       ]
+    },
+    {
+       "name": "PlacementPlaceOnStroageSystemCheckboxChecked",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//*[@class='check-col check-td']//i[contains(@class,'checked')][2]"
+       	 }
+       ]
+    },
+    {
+       "name": "PlacementPlaceOnSaveSelectionsButton",
+       "locale": [
+       	 {
+       	   "name" : "en_US",
+       	   "locator": "//button[contains(text(), 'Save Selections')]"
+       	 }
+       ]
+    },
+     {
+      "name": "CreateTierPlacementNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary next-performance']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierPerformanceView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPerformanceHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[@class='header']"
+        }
+       ],
+      "expectedData" : "Define storage requirements for data associated with this tier"
+    },
+     {
+      "name": "CreateTierPlacementSkipThisStep",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='skip-step skip-step-two']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadBandwidthInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='readBandwidth']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadBandwidthSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Read Bandwidth')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadIOPsSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Read IOPs')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadLatencySection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Read Latency')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteBandwidthSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Write Bandwidth')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteIOPsSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Write IOPs')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteLatencySection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep3 create-step create-step-three d-view']//*[contains(text(), 'Write Latency')]"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadIOPsInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='readIOPs']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceReadLatencyInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='readLatency']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteBandwidthInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='writeBandwidth']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteIOPsInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='writeIOPs']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceWriteLatencyInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//input[@name='writeLatency']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierCreateSideView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateSideView d-view']"
+        }
+      ]
+    },
+     {
+      "name": "CreateTierPerformanceSkipThisStep",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='skip-step skip-step-three']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierPerformanceNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary next-protection']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierProtectionView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewAvailability",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']//*[contains(text(), 'Availability')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewPriority",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']//*[contains(text(), 'Priority')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineDelay",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']//*[contains(text(), 'Online Delay')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewDurability",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']//*[contains(text(), 'Durability')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineForever",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='selection radio-value']//*[contains(text(), 'Forever')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineHours",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='selection radio-value']//*[contains(text(), 'Hours')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineMinutes",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='selection radio-value']//*[contains(text(), 'Minutes')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineSeconds",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='selection radio-value']//*[contains(text(), 'Seconds')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionViewOnlineOnline",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='selection radio-value']//*[contains(text(), 'Online')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierProtectionHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep4 create-step create-step-four d-view']//*[@class='header']"
+        }
+       ],
+       "expectedData" : "Define storage requirements for data associated with this tier"
+    },
+     {
+      "name": "CreateTierProtectionSkipThisStep",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='skip-step skip-step-four']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierProtectionNextStepButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary next-preview']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierPreviewView",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep5 create-step create-step-five d-view']"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPreviewHeader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='TierCreateStep5 create-step create-step-five d-view']//*[@class='step-header']"
+        }
+       ],
+       "expectedData" : "Define storage requirements for data associated with this tier expected"
+    },
+    {
+      "name": "CreateTierPreviewNameSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='panel-title'][text()='Name']//..//parent::div[contains(@class, 'panel-box box1')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPreviewPerformanceSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='panel-title'][text()='Performance']//..//parent::div[contains(@class, 'panel-box box2')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPreviewProtectionSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='panel-title'][text()='Protection']//..//parent::div[contains(@class, 'panel-box box3')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierConfineToSection",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'Confine To')]//ancestor::div[contains(@class, 'panel-box box4')]"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierConfineToSectionEdit",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'Confine To')]//following-sibling::span"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierPlaceOnSectionEdit",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'Place On')]//following-sibling::span"
+        }
+       ]
+    },
+    {
+      "name": "CreateTierSaveTierButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-primary btn-save-tier']"
+        }
+      ]
+    },
+    {
+      "name": "CreateTierCancelButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//button[@class='btn btn-default cancel ripple-container']"
+        }
+      ]
+    }
+  ]
+}

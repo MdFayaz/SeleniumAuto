@@ -1,0 +1,729 @@
+{
+  "name": "DashboardPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "headerMenubar",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.screen-header"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 10
+      }
+    },
+    {
+      "name": "dashboardActiveByDefault",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[@class='menu-item dashboard selected']/a[@href='#dashboard']"
+        }
+      ]
+    },
+     {
+      "name": "datasphereTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.left-con a"
+        }
+      ]
+    },
+     {
+      "name": "headerMenuItems",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.right-con .nav-item"
+        }
+      ]
+    },
+     {
+      "name": "userDropdown",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[class='nav-item userinfo-item']"
+        }
+      ]
+    },
+     {
+      "name": "leftMenuItems",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu .menu-item"
+        }
+      ]
+    },
+     {
+      "name": "dashboardIconActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'min-menu')]//*[contains(@class, 'dashboard') and (contains(@class, 'selected'))]"
+        }
+      ]
+    },
+    {
+      "name": "mobilityIconActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'min-menu')]//*[contains(@class, 'mobility') and (contains(@class, 'selected'))]"
+        }
+      ]
+    },
+    {
+      "name": "objectivesIconActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'min-menu')]//*[contains(@class, 'thresholds') and (contains(@class, 'selected'))]"
+        }
+      ]
+    },
+    {
+      "name": "infrastructureIconActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'min-menu')]//*[contains(@class, 'infra') and (contains(@class, 'selected'))]"
+        }
+      ]
+    },
+    {
+      "name": "settingsIconActive",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(@class, 'min-menu')]//*[contains(@class, 'settings') and (contains(@class, 'selected'))]"
+        }
+      ]
+    },
+     {
+      "name": "hamburger",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.hamburger"
+        }
+      ]
+    },
+     {
+      "name": "hamburgerExpanded",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=div[class='menu max-menu transitioning left-mode top-level']"
+        }
+      ]
+    },
+     {
+      "name": "leftNavMenuNames",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.max-menu span[class='title']"
+        }
+      ]
+    },
+     {
+      "name": "signOut",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'Sign Out')]"
+        }
+      ]
+    },
+     {
+      "name": "changePassword",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'Change Password')]"
+        }
+      ]
+    },
+     {
+      "name": "resetPasswordDialog",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.ResetPasswordPopover"
+        }
+      ]
+    },
+     {
+      "name": "resetPasswordTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.ResetPasswordPopover .popover-title"
+        }
+      ]
+    },
+     {
+      "name": "currentPasswordLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Current Password:')]"
+        }
+      ]
+    },
+     {
+      "name": "newPasswordLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'New Password:')]"
+        }
+      ]
+    },
+     {
+      "name": "confirmPasswordLabel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Confirm Password:')]"
+        }
+      ]
+    },
+     {
+      "name": "currentPasswordField",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=input[placeholder='Current Password']"
+        }
+      ]
+    },
+     {
+      "name": "newPasswordField",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.input[placeholder='New Password']"
+        }
+      ]
+    },
+     {
+      "name": "confirmPasswordField",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=input[placeholder='Confirm Password']"
+        }
+      ]
+    },
+     {
+      "name": "savePassword",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.update-password"
+        }
+      ]
+    },
+     {
+      "name": "currentPasswordErrorMsg",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.ResetPasswordPopover .info.current-password"
+        }
+      ]
+    },
+     {
+      "name": "passwordValidationErrorMsg",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.ResetPasswordPopover .info.password .message"
+        }
+      ]
+    },
+     {
+      "name": "passwordsDoNotMatchErrorMsg",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.ResetPasswordPopover .info.password2"
+        }
+      ]
+    },
+     {
+      "name": "closeChangePasswordDialog",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Change Password')]//following-sibling::span"
+        }
+      ]
+    },
+     {
+      "name": "aboutDatasphere",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(),'About DataSphere')]"
+        }
+      ]
+    },
+     {
+      "name": "aboutDataSphereDialog",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.AboutDataSpherePopover .about-datasphere-popover"
+        }
+      ]
+    },
+     {
+      "name": "aboutDataSphereDialogTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.AboutDataSpherePopover .title"
+        }
+      ]
+    },
+     {
+      "name": "aboutDataSphereDialogContent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=..AboutDataSpherePopover .popover-content"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "aboutDataSphereDialogCopyRight",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.AboutDataSpherePopover .popover-bottom"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "aboutDataSphereDialogClose",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.AboutDataSpherePopover .close"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "userInfo",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.help-item"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "viewAllEvents",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'View All Events')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "taskDropdownList",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.TasksDropdown"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "seeAllTasks",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'See All Tasks')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "userDropdownList",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.user-drop-down"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "dashboardLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#dashboard']"
+        }
+      ]
+    },
+     {
+      "name": "mobilityLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#mobility']"
+        }
+      ]
+    },
+     {
+      "name": "objectivesLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#thresholds/objectives']"
+        }
+      ]
+    },
+     {
+      "name": "infrastructureLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#infra/shares']"
+        }
+      ]
+    },
+     {
+      "name": "settingsLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#settings/datasphere']"
+        }
+      ]
+    },
+     {
+      "name": "administrationLink",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.min-menu a[href='#admin/system']"
+        }
+      ]
+    },
+     {
+      "name": "pageLoader",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "classname=loading-icon"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "filterTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Filter')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "button2Hrs",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=button[data-value='2h']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "button24Hrs",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=button[data-value='24h']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "button31days",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=button[data-value='31d']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "buttonCustom",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=button[data-value='custom']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "customTimeInput",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.time-input"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "startTime",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.time-input input[name='start-time']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "endTime",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.time-input input[name='end-time']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingPanel",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='impacting-con filter']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingClearAll",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//div[@class='impacting-con filter']//*[contains(text(), 'Clear All')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingTitle",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "//*[contains(text(), 'Impacting')]"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingFields",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con .filter-item"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingStorageSystemTask",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='node-']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingVolumeGroupTask",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='volume-group-']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingVolumeTask",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='volume-']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingShareTask",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='share-']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingStorageSystemEvent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='NODE']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingVolumeGroupEvent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='VOLUME_GROUP']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingVolumeEvent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='STORAGE_VOLUME']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    },
+     {
+      "name": "impactingShareEvent",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "css=.impacting-con div[data-type='SHARE']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 5
+      }
+    }
+  ]
+}
